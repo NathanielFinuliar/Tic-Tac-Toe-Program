@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Bttn1 = new System.Windows.Forms.Button();
             this.Bttn2 = new System.Windows.Forms.Button();
             this.Bttn3 = new System.Windows.Forms.Button();
@@ -37,11 +38,12 @@
             this.Bttn7 = new System.Windows.Forms.Button();
             this.Bttn8 = new System.Windows.Forms.Button();
             this.Bttn9 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Bttn1
             // 
-            this.Bttn1.Location = new System.Drawing.Point(192, 125);
+            this.Bttn1.Location = new System.Drawing.Point(211, 125);
             this.Bttn1.Name = "Bttn1";
             this.Bttn1.Size = new System.Drawing.Size(125, 100);
             this.Bttn1.TabIndex = 0;
@@ -49,7 +51,7 @@
             // 
             // Bttn2
             // 
-            this.Bttn2.Location = new System.Drawing.Point(192, 231);
+            this.Bttn2.Location = new System.Drawing.Point(211, 231);
             this.Bttn2.Name = "Bttn2";
             this.Bttn2.Size = new System.Drawing.Size(125, 100);
             this.Bttn2.TabIndex = 0;
@@ -57,7 +59,7 @@
             // 
             // Bttn3
             // 
-            this.Bttn3.Location = new System.Drawing.Point(192, 337);
+            this.Bttn3.Location = new System.Drawing.Point(211, 337);
             this.Bttn3.Name = "Bttn3";
             this.Bttn3.Size = new System.Drawing.Size(125, 100);
             this.Bttn3.TabIndex = 0;
@@ -89,7 +91,7 @@
             // 
             // Bttn7
             // 
-            this.Bttn7.Location = new System.Drawing.Point(490, 125);
+            this.Bttn7.Location = new System.Drawing.Point(473, 125);
             this.Bttn7.Name = "Bttn7";
             this.Bttn7.Size = new System.Drawing.Size(125, 100);
             this.Bttn7.TabIndex = 0;
@@ -97,7 +99,7 @@
             // 
             // Bttn8
             // 
-            this.Bttn8.Location = new System.Drawing.Point(490, 231);
+            this.Bttn8.Location = new System.Drawing.Point(473, 231);
             this.Bttn8.Name = "Bttn8";
             this.Bttn8.Size = new System.Drawing.Size(125, 100);
             this.Bttn8.TabIndex = 0;
@@ -105,17 +107,34 @@
             // 
             // Bttn9
             // 
-            this.Bttn9.Location = new System.Drawing.Point(490, 337);
+            this.Bttn9.Location = new System.Drawing.Point(473, 337);
             this.Bttn9.Name = "Bttn9";
             this.Bttn9.Size = new System.Drawing.Size(125, 100);
             this.Bttn9.TabIndex = 0;
             this.Bttn9.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Black;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox1.Font = new System.Drawing.Font("Games", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.DeepPink;
+            this.textBox1.Location = new System.Drawing.Point(217, 46);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(374, 73);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "Tic Tac Toe";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(869, 550);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Bttn9);
             this.Controls.Add(this.Bttn6);
             this.Controls.Add(this.Bttn3);
@@ -125,9 +144,11 @@
             this.Controls.Add(this.Bttn7);
             this.Controls.Add(this.Bttn4);
             this.Controls.Add(this.Bttn1);
+            this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -142,6 +163,7 @@
         private System.Windows.Forms.Button Bttn7;
         private System.Windows.Forms.Button Bttn8;
         private System.Windows.Forms.Button Bttn9;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
