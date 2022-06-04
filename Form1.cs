@@ -168,5 +168,18 @@ namespace Tic_Tac_Toe_Program
 
             }
         }
+
+        private void Rst_Click(object sender, EventArgs e)
+        {
+            Bttn1.Text = "";
+            Bttn2.Text = "";
+            Bttn3.Text = "";
+            Bttn4.Text = "";
+            Bttn5.Text = "";
+            Bttn6.Text = "";
+            Bttn7.Text = "";
+            Bttn8.Text = "";
+            Bttn9.Text = "";
+        }
     }
 }
