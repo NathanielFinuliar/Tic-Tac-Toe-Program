@@ -299,6 +299,40 @@ namespace Tic_Tac_Toe_Program
                         Bttn9.Text = "";
                     }
                 }
+                //Diagonal Pattern 1
+                else if (Bttn5.Text == Bttn1.Text)
+                {
+                    if (Bttn1.Text == Bttn9.Text)
+                    {
+                        MessageBox.Show(Bttn5.Text + " Wins the Game");
+                        Bttn1.Text = "";
+                        Bttn2.Text = "";
+                        Bttn3.Text = "";
+                        Bttn4.Text = "";
+                        Bttn5.Text = "";
+                        Bttn6.Text = "";
+                        Bttn7.Text = "";
+                        Bttn8.Text = "";
+                        Bttn9.Text = "";
+                    }
+                }
+                //Diagonal Pattern 2
+                else if (Bttn5.Text == Bttn3.Text)
+                {
+                    if (Bttn3.Text == Bttn7.Text)
+                    {
+                        MessageBox.Show(Bttn5.Text + " Wins the Game");
+                        Bttn1.Text = "";
+                        Bttn2.Text = "";
+                        Bttn3.Text = "";
+                        Bttn4.Text = "";
+                        Bttn5.Text = "";
+                        Bttn6.Text = "";
+                        Bttn7.Text = "";
+                        Bttn8.Text = "";
+                        Bttn9.Text = "";
+                    }
+                }
             }
         }
 
