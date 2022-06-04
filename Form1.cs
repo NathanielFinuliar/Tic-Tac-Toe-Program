@@ -31,7 +31,23 @@ namespace Tic_Tac_Toe_Program
                 {
                     Bttnvalue = "X";
                 }
-
+                //Row Pattern
+                if (Bttn1.Text == Bttn4.Text)
+                {
+                    if (Bttn4.Text == Bttn7.Text)
+                    {
+                        MessageBox.Show(Bttn1.Text + " Wins the Game");
+                        Bttn1.Text = "";
+                        Bttn2.Text = "";
+                        Bttn3.Text = "";
+                        Bttn4.Text = "";
+                        Bttn5.Text = "";
+                        Bttn6.Text = "";
+                        Bttn7.Text = "";
+                        Bttn8.Text = "";
+                        Bttn9.Text = "";
+                    }
+                }
             }
         }
 
@@ -48,7 +64,23 @@ namespace Tic_Tac_Toe_Program
                 {
                     Bttnvalue = "X";
                 }
-
+                //Row Pattern
+                if (Bttn2.Text == Bttn5.Text)
+                {
+                    if (Bttn5.Text == Bttn8.Text)
+                    {
+                        MessageBox.Show(Bttn2.Text + " Wins the Game");
+                        Bttn1.Text = "";
+                        Bttn2.Text = "";
+                        Bttn3.Text = "";
+                        Bttn4.Text = "";
+                        Bttn5.Text = "";
+                        Bttn6.Text = "";
+                        Bttn7.Text = "";
+                        Bttn8.Text = "";
+                        Bttn9.Text = "";
+                    }
+                }
             }
         }
 
@@ -65,7 +97,23 @@ namespace Tic_Tac_Toe_Program
                 {
                     Bttnvalue = "X";
                 }
-
+                //Row Pattern
+                if (Bttn3.Text == Bttn6.Text)
+                {
+                    if (Bttn6.Text == Bttn9.Text)
+                    {
+                        MessageBox.Show(Bttn3.Text + " Wins the Game");
+                        Bttn1.Text = "";
+                        Bttn2.Text = "";
+                        Bttn3.Text = "";
+                        Bttn4.Text = "";
+                        Bttn5.Text = "";
+                        Bttn6.Text = "";
+                        Bttn7.Text = "";
+                        Bttn8.Text = "";
+                        Bttn9.Text = "";
+                    }
+                }
             }
         }
 
