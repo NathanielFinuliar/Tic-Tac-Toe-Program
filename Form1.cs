@@ -48,6 +48,23 @@ namespace Tic_Tac_Toe_Program
                         Bttn9.Text = "";
                     }
                 }
+                //Column Pattern
+                else if (Bttn1.Text == Bttn2.Text)
+                {
+                    if (Bttn2.Text == Bttn3.Text)
+                    {
+                        MessageBox.Show(Bttn1.Text + " Wins the Game");
+                        Bttn1.Text = "";
+                        Bttn2.Text = "";
+                        Bttn3.Text = "";
+                        Bttn4.Text = "";
+                        Bttn5.Text = "";
+                        Bttn6.Text = "";
+                        Bttn7.Text = "";
+                        Bttn8.Text = "";
+                        Bttn9.Text = "";
+                    }
+                }
             }
         }
 
@@ -134,6 +151,23 @@ namespace Tic_Tac_Toe_Program
                 if (Bttn4.Text == Bttn7.Text)
                 {
                     if (Bttn7.Text == Bttn1.Text)
+                    {
+                        MessageBox.Show(Bttn4.Text + " Wins the Game");
+                        Bttn1.Text = "";
+                        Bttn2.Text = "";
+                        Bttn3.Text = "";
+                        Bttn4.Text = "";
+                        Bttn5.Text = "";
+                        Bttn6.Text = "";
+                        Bttn7.Text = "";
+                        Bttn8.Text = "";
+                        Bttn9.Text = "";
+                    }
+                }
+                // Column Pattern
+                else if (Bttn4.Text == Bttn5.Text)
+                {
+                    if (Bttn5.Text == Bttn6.Text)
                     {
                         MessageBox.Show(Bttn4.Text + " Wins the Game");
                         Bttn1.Text = "";
@@ -234,6 +268,23 @@ namespace Tic_Tac_Toe_Program
                 if (Bttn7.Text == Bttn4.Text)
                 {
                     if (Bttn4.Text == Bttn1.Text)
+                    {
+                        MessageBox.Show(Bttn7.Text + " Wins the Game");
+                        Bttn1.Text = "";
+                        Bttn2.Text = "";
+                        Bttn3.Text = "";
+                        Bttn4.Text = "";
+                        Bttn5.Text = "";
+                        Bttn6.Text = "";
+                        Bttn7.Text = "";
+                        Bttn8.Text = "";
+                        Bttn9.Text = "";
+                    }
+                }
+                // Column Pattern
+                else if (Bttn7.Text == Bttn8.Text)
+                {
+                    if (Bttn8.Text == Bttn9.Text)
                     {
                         MessageBox.Show(Bttn7.Text + " Wins the Game");
                         Bttn1.Text = "";
