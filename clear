@@ -1,0 +1,53 @@
+[33mcommit 09722dd18b760304029410d406f0bfe9f0230229[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: NathanielFinuliar <nathaniel.finuliar14@gmail.com>
+Date:   Sat Jun 4 12:24:20 2022 +0800
+
+    Row Patterns are now working
+
+[33mcommit 4587f07e343d89e3e772d35c3867ee805886e3aa[m
+Author: NathanielFinuliar <nathaniel.finuliar14@gmail.com>
+Date:   Sat Jun 4 12:06:02 2022 +0800
+
+    Exit Button is now working
+
+[33mcommit 02e9076f416c5eaaf44beb6d58edfa137ece6302[m
+Author: NathanielFinuliar <nathaniel.finuliar14@gmail.com>
+Date:   Sat Jun 4 12:04:37 2022 +0800
+
+    Reset Button is now working
+
+[33mcommit 506a787ac41b03ca2091c3639c8bed3b177d9a33[m
+Author: NathanielFinuliar <nathaniel.finuliar14@gmail.com>
+Date:   Sat Jun 4 11:59:03 2022 +0800
+
+    All Buttons has now X and O values when clicked
+
+[33mcommit 2edb70a50c88de405ffdb0d6165d581384b75b5d[m
+Author: NathanielFinuliar <nathaniel.finuliar14@gmail.com>
+Date:   Sat Jun 4 11:47:31 2022 +0800
+
+    Buttons 1,2,3,4 have now X and O values when clicked
+
+[33mcommit a0420790eadf1f82861f67a67465c3126786999d[m
+Author: NathanielFinuliar <nathaniel.finuliar14@gmail.com>
+Date:   Sat Jun 4 03:16:26 2022 +0800
+
+    Reset and Exit button are now added
+
+[33mcommit 695d49d02580807c0ad20ca1774618e886753ca6[m
+Author: NathanielFinuliar <nathaniel.finuliar14@gmail.com>
+Date:   Sat Jun 4 03:01:43 2022 +0800
+
+    Tic Tac Toe Design Added
+
+[33mcommit 7e9ba973069f712e57572251c6399a974b233cc6[m
+Author: NathanielFinuliar <nathaniel.finuliar14@gmail.com>
+Date:   Sat Jun 4 02:38:59 2022 +0800
+
+    All 9 Buttons are now renamed
+
+[33mcommit a4c1b1d4f31f5e4fe8ec150a3043919ce1e669f3[m
+Author: NathanielFinuliar <nathaniel.finuliar14@gmail.com>
+Date:   Sat Jun 4 01:54:21 2022 +0800
+
+    Initial Commit
