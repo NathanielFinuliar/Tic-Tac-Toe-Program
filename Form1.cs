@@ -85,5 +85,88 @@ namespace Tic_Tac_Toe_Program
 
             }
         }
+
+        private void Bttn5_Click(object sender, EventArgs e)
+        {
+            if (Bttn5.Text == "")
+            {
+                Bttn5.Text = Bttnvalue;
+                if (Bttnvalue == "X")
+                {
+                    Bttnvalue = "O";
+                }
+                else
+                {
+                    Bttnvalue = "X";
+                }
+
+            }
+        }
+
+        private void Bttn6_Click(object sender, EventArgs e)
+        {
+            if (Bttn6.Text == "")
+            {
+                Bttn6.Text = Bttnvalue;
+                if (Bttnvalue == "X")
+                {
+                    Bttnvalue = "O";
+                }
+                else
+                {
+                    Bttnvalue = "X";
+                }
+
+            }
+        }
+
+        private void Bttn7_Click(object sender, EventArgs e)
+        {
+            if (Bttn7.Text == "")
+            {
+                Bttn7.Text = Bttnvalue;
+                if (Bttnvalue == "X")
+                {
+                    Bttnvalue = "O";
+                }
+                else
+                {
+                    Bttnvalue = "X";
+                }
+
+            }
+        }
+        private void Bttn8_Click(object sender, EventArgs e)
+        {
+            if (Bttn8.Text == "")
+            {
+                Bttn8.Text = Bttnvalue;
+                if (Bttnvalue == "X")
+                {
+                    Bttnvalue = "O";
+                }
+                else
+                {
+                    Bttnvalue = "X";
+                }
+
+            }
+        }
+        private void Bttn9_Click(object sender, EventArgs e)
+        {
+            if (Bttn9.Text == "")
+            {
+                Bttn9.Text = Bttnvalue;
+                if (Bttnvalue == "X")
+                {
+                    Bttnvalue = "O";
+                }
+                else
+                {
+                    Bttnvalue = "X";
+                }
+
+            }
+        }
     }
 }
