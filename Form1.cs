@@ -65,6 +65,23 @@ namespace Tic_Tac_Toe_Program
                         Bttn9.Text = "";
                     }
                 }
+                //Diagonal Pattern
+                else if (Bttn1.Text == Bttn5.Text)
+                {
+                    if (Bttn5.Text == Bttn9.Text)
+                    {
+                        MessageBox.Show(Bttn1.Text + " Wins the Game");
+                        Bttn1.Text = "";
+                        Bttn2.Text = "";
+                        Bttn3.Text = "";
+                        Bttn4.Text = "";
+                        Bttn5.Text = "";
+                        Bttn6.Text = "";
+                        Bttn7.Text = "";
+                        Bttn8.Text = "";
+                        Bttn9.Text = "";
+                    }
+                }
             }
         }
 
@@ -152,6 +169,23 @@ namespace Tic_Tac_Toe_Program
                 else if (Bttn3.Text == Bttn2.Text)
                 {
                     if (Bttn2.Text == Bttn1.Text)
+                    {
+                        MessageBox.Show(Bttn3.Text + " Wins the Game");
+                        Bttn1.Text = "";
+                        Bttn2.Text = "";
+                        Bttn3.Text = "";
+                        Bttn4.Text = "";
+                        Bttn5.Text = "";
+                        Bttn6.Text = "";
+                        Bttn7.Text = "";
+                        Bttn8.Text = "";
+                        Bttn9.Text = "";
+                    }
+                }
+                //Diagonal Pattern
+                else if (Bttn3.Text == Bttn5.Text)
+                {
+                    if (Bttn5.Text == Bttn7.Text)
                     {
                         MessageBox.Show(Bttn3.Text + " Wins the Game");
                         Bttn1.Text = "";
@@ -365,6 +399,23 @@ namespace Tic_Tac_Toe_Program
                         Bttn9.Text = "";
                     }
                 }
+                //Diagonal Pattern
+                else if (Bttn7.Text == Bttn5.Text)
+                {
+                    if (Bttn5.Text == Bttn3.Text)
+                    {
+                        MessageBox.Show(Bttn7.Text + " Wins the Game");
+                        Bttn1.Text = "";
+                        Bttn2.Text = "";
+                        Bttn3.Text = "";
+                        Bttn4.Text = "";
+                        Bttn5.Text = "";
+                        Bttn6.Text = "";
+                        Bttn7.Text = "";
+                        Bttn8.Text = "";
+                        Bttn9.Text = "";
+                    }
+                }
             }
         }
         private void Bttn8_Click(object sender, EventArgs e)
@@ -450,6 +501,23 @@ namespace Tic_Tac_Toe_Program
                 else if (Bttn9.Text == Bttn8.Text)
                 {
                     if (Bttn8.Text == Bttn7.Text)
+                    {
+                        MessageBox.Show(Bttn9.Text + " Wins the Game");
+                        Bttn1.Text = "";
+                        Bttn2.Text = "";
+                        Bttn3.Text = "";
+                        Bttn4.Text = "";
+                        Bttn5.Text = "";
+                        Bttn6.Text = "";
+                        Bttn7.Text = "";
+                        Bttn8.Text = "";
+                        Bttn9.Text = "";
+                    }
+                }
+                //Diagonal Pattern
+                else if (Bttn9.Text == Bttn5.Text)
+                {
+                    if (Bttn5.Text == Bttn1.Text)
                     {
                         MessageBox.Show(Bttn9.Text + " Wins the Game");
                         Bttn1.Text = "";
