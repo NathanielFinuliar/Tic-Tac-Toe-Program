@@ -181,5 +181,10 @@ namespace Tic_Tac_Toe_Program
             Bttn8.Text = "";
             Bttn9.Text = "";
         }
+
+        private void Ext_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

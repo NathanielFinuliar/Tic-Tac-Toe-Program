@@ -39,7 +39,7 @@
             this.Bttn8 = new System.Windows.Forms.Button();
             this.Bttn9 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.Exit = new System.Windows.Forms.Button();
+            this.Ext = new System.Windows.Forms.Button();
             this.Rst = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -151,14 +151,15 @@
             this.textBox1.Text = "Tic Tac Toe";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Exit
+            // Ext
             // 
-            this.Exit.Location = new System.Drawing.Point(721, 444);
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(113, 66);
-            this.Exit.TabIndex = 2;
-            this.Exit.Text = "Exit";
-            this.Exit.UseVisualStyleBackColor = true;
+            this.Ext.Location = new System.Drawing.Point(721, 444);
+            this.Ext.Name = "Ext";
+            this.Ext.Size = new System.Drawing.Size(113, 66);
+            this.Ext.TabIndex = 2;
+            this.Ext.Text = "Exit";
+            this.Ext.UseVisualStyleBackColor = true;
+            this.Ext.Click += new System.EventHandler(this.Ext_Click);
             // 
             // Rst
             // 
@@ -179,7 +180,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(875, 550);
             this.Controls.Add(this.Rst);
-            this.Controls.Add(this.Exit);
+            this.Controls.Add(this.Ext);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Bttn9);
             this.Controls.Add(this.Bttn6);
@@ -210,7 +211,7 @@
         private System.Windows.Forms.Button Bttn8;
         private System.Windows.Forms.Button Bttn9;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button Exit;
+        private System.Windows.Forms.Button Ext;
         private System.Windows.Forms.Button Rst;
     }
 }
