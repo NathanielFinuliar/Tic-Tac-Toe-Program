@@ -1,6 +1,6 @@
 ﻿namespace Tic_Tac_Toe_Program
 {
-    partial class Form1
+    partial class Fm1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Fm1));
             this.Bttn1 = new System.Windows.Forms.Button();
             this.Bttn2 = new System.Windows.Forms.Button();
             this.Bttn3 = new System.Windows.Forms.Button();
@@ -39,44 +39,57 @@
             this.Bttn8 = new System.Windows.Forms.Button();
             this.Bttn9 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Exit = new System.Windows.Forms.Button();
             this.Reset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Bttn1
             // 
+            this.Bttn1.BackColor = System.Drawing.Color.White;
+            this.Bttn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Bttn1.Font = new System.Drawing.Font("Games", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bttn1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Bttn1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Bttn1.Location = new System.Drawing.Point(226, 142);
             this.Bttn1.Name = "Bttn1";
             this.Bttn1.Size = new System.Drawing.Size(104, 91);
             this.Bttn1.TabIndex = 0;
-            this.Bttn1.UseVisualStyleBackColor = true;
+            this.Bttn1.UseVisualStyleBackColor = false;
+            this.Bttn1.Click += new System.EventHandler(this.Bttn1_Click);
             // 
             // Bttn2
             // 
+            this.Bttn2.Font = new System.Drawing.Font("Games", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bttn2.Location = new System.Drawing.Point(226, 248);
             this.Bttn2.Name = "Bttn2";
             this.Bttn2.Size = new System.Drawing.Size(104, 91);
             this.Bttn2.TabIndex = 0;
             this.Bttn2.UseVisualStyleBackColor = true;
+            this.Bttn2.Click += new System.EventHandler(this.Bttn2_Click);
             // 
             // Bttn3
             // 
+            this.Bttn3.Font = new System.Drawing.Font("Games", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bttn3.Location = new System.Drawing.Point(226, 354);
             this.Bttn3.Name = "Bttn3";
             this.Bttn3.Size = new System.Drawing.Size(104, 91);
             this.Bttn3.TabIndex = 0;
             this.Bttn3.UseVisualStyleBackColor = true;
+            this.Bttn3.Click += new System.EventHandler(this.Bttn3_Click);
             // 
             // Bttn4
             // 
+            this.Bttn4.Font = new System.Drawing.Font("Games", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bttn4.Location = new System.Drawing.Point(357, 142);
             this.Bttn4.Name = "Bttn4";
             this.Bttn4.Size = new System.Drawing.Size(104, 91);
             this.Bttn4.TabIndex = 0;
             this.Bttn4.UseVisualStyleBackColor = true;
+            this.Bttn4.Click += new System.EventHandler(this.Bttn4_Click);
             // 
             // Bttn5
             // 
+            this.Bttn5.Font = new System.Drawing.Font("Games", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bttn5.Location = new System.Drawing.Point(357, 248);
             this.Bttn5.Name = "Bttn5";
             this.Bttn5.Size = new System.Drawing.Size(104, 91);
@@ -85,6 +98,7 @@
             // 
             // Bttn6
             // 
+            this.Bttn6.Font = new System.Drawing.Font("Games", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bttn6.Location = new System.Drawing.Point(357, 354);
             this.Bttn6.Name = "Bttn6";
             this.Bttn6.Size = new System.Drawing.Size(104, 91);
@@ -93,6 +107,7 @@
             // 
             // Bttn7
             // 
+            this.Bttn7.Font = new System.Drawing.Font("Games", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bttn7.Location = new System.Drawing.Point(488, 142);
             this.Bttn7.Name = "Bttn7";
             this.Bttn7.Size = new System.Drawing.Size(104, 91);
@@ -101,6 +116,7 @@
             // 
             // Bttn8
             // 
+            this.Bttn8.Font = new System.Drawing.Font("Games", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bttn8.Location = new System.Drawing.Point(488, 248);
             this.Bttn8.Name = "Bttn8";
             this.Bttn8.Size = new System.Drawing.Size(104, 91);
@@ -109,6 +125,7 @@
             // 
             // Bttn9
             // 
+            this.Bttn9.Font = new System.Drawing.Font("Games", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bttn9.Location = new System.Drawing.Point(488, 354);
             this.Bttn9.Name = "Bttn9";
             this.Bttn9.Size = new System.Drawing.Size(104, 91);
@@ -129,14 +146,14 @@
             this.textBox1.Text = "Tic Tac Toe";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button1
+            // Exit
             // 
-            this.button1.Location = new System.Drawing.Point(721, 444);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 66);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Exit";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Exit.Location = new System.Drawing.Point(721, 444);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(113, 66);
+            this.Exit.TabIndex = 2;
+            this.Exit.Text = "Exit";
+            this.Exit.UseVisualStyleBackColor = true;
             // 
             // Reset
             // 
@@ -147,15 +164,16 @@
             this.Reset.Text = "Reset";
             this.Reset.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // Fm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(869, 550);
+            this.ClientSize = new System.Drawing.Size(875, 550);
             this.Controls.Add(this.Reset);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Exit);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Bttn9);
             this.Controls.Add(this.Bttn6);
@@ -167,8 +185,8 @@
             this.Controls.Add(this.Bttn4);
             this.Controls.Add(this.Bttn1);
             this.DoubleBuffered = true;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Fm1";
+            this.Text = "Tic Tac Toe";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,7 +204,7 @@
         private System.Windows.Forms.Button Bttn8;
         private System.Windows.Forms.Button Bttn9;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Exit;
         private System.Windows.Forms.Button Reset;
     }
 }
