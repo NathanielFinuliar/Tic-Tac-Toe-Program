@@ -40,7 +40,7 @@
             this.Bttn9 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Ext = new System.Windows.Forms.Button();
-            this.Rst = new System.Windows.Forms.Button();
+            this.Rstrt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Bttn1
@@ -161,15 +161,15 @@
             this.Ext.UseVisualStyleBackColor = true;
             this.Ext.Click += new System.EventHandler(this.Ext_Click);
             // 
-            // Rst
+            // Rstrt
             // 
-            this.Rst.Location = new System.Drawing.Point(721, 366);
-            this.Rst.Name = "Rst";
-            this.Rst.Size = new System.Drawing.Size(113, 66);
-            this.Rst.TabIndex = 3;
-            this.Rst.Text = "Reset";
-            this.Rst.UseVisualStyleBackColor = true;
-            this.Rst.Click += new System.EventHandler(this.Rst_Click);
+            this.Rstrt.Location = new System.Drawing.Point(721, 366);
+            this.Rstrt.Name = "Rstrt";
+            this.Rstrt.Size = new System.Drawing.Size(113, 66);
+            this.Rstrt.TabIndex = 3;
+            this.Rstrt.Text = "Restart";
+            this.Rstrt.UseVisualStyleBackColor = true;
+            this.Rstrt.Click += new System.EventHandler(this.Rst_Click);
             // 
             // Fm1
             // 
@@ -179,7 +179,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(875, 550);
-            this.Controls.Add(this.Rst);
+            this.Controls.Add(this.Rstrt);
             this.Controls.Add(this.Ext);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Bttn9);
@@ -212,7 +212,7 @@
         private System.Windows.Forms.Button Bttn9;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button Ext;
-        private System.Windows.Forms.Button Rst;
+        private System.Windows.Forms.Button Rstrt;
     }
 }
 
