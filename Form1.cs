@@ -13,6 +13,8 @@ namespace Tic_Tac_Toe_Program
     public partial class Fm1 : Form
     {
         String Bttnvalue = "X";
+        int attempt = 0;
+
         public Fm1()
         {
             InitializeComponent();
@@ -40,6 +42,7 @@ namespace Tic_Tac_Toe_Program
                         Bttn1.Text = Bttn2.Text = Bttn3.Text = "";
                         Bttn4.Text = Bttn5.Text = Bttn6.Text = "";
                         Bttn7.Text = Bttn8.Text = Bttn9.Text = "";
+                        attempt = 0;
 
                     }
                 }
@@ -63,7 +66,18 @@ namespace Tic_Tac_Toe_Program
                         Bttn1.Text = Bttn2.Text = Bttn3.Text = "";
                         Bttn4.Text = Bttn5.Text = Bttn6.Text = "";
                         Bttn7.Text = Bttn8.Text = Bttn9.Text = "";
+                        attempt = 0;
                     }
+                }
+                //Draw
+                attempt = attempt + 1;
+                if (attempt == 9)
+                {
+                    MessageBox.Show("The Game ended in a Draw! Congrats, there was no winner.");
+                    Bttn1.Text = Bttn2.Text = Bttn3.Text = "";
+                    Bttn4.Text = Bttn5.Text = Bttn6.Text = "";
+                    Bttn7.Text = Bttn8.Text = Bttn9.Text = "";
+                    attempt = 0;
                 }
             }
         }
@@ -90,6 +104,7 @@ namespace Tic_Tac_Toe_Program
                         Bttn1.Text = Bttn2.Text = Bttn3.Text = "";
                         Bttn4.Text = Bttn5.Text = Bttn6.Text = "";
                         Bttn7.Text = Bttn8.Text = Bttn9.Text = "";
+                        attempt = 0;
                     }
                 }
                 //Column Pattern
@@ -101,7 +116,18 @@ namespace Tic_Tac_Toe_Program
                         Bttn1.Text = Bttn2.Text = Bttn3.Text = "";
                         Bttn4.Text = Bttn5.Text = Bttn6.Text = "";
                         Bttn7.Text = Bttn8.Text = Bttn9.Text = "";
+                        attempt = 0;
                     }
+                }
+                //Draw
+                attempt = attempt + 1;
+                if (attempt == 9)
+                {
+                    MessageBox.Show("The Game ended in a Draw! Congrats, there was no winner.");
+                    Bttn1.Text = Bttn2.Text = Bttn3.Text = "";
+                    Bttn4.Text = Bttn5.Text = Bttn6.Text = "";
+                    Bttn7.Text = Bttn8.Text = Bttn9.Text = "";
+                    attempt = 0;
                 }
             }
         }
@@ -128,6 +154,7 @@ namespace Tic_Tac_Toe_Program
                         Bttn1.Text = Bttn2.Text = Bttn3.Text = "";
                         Bttn4.Text = Bttn5.Text = Bttn6.Text = "";
                         Bttn7.Text = Bttn8.Text = Bttn9.Text = "";
+                        attempt = 0;
                     }
                 }
                 //Column Pattern
@@ -139,6 +166,7 @@ namespace Tic_Tac_Toe_Program
                         Bttn1.Text = Bttn2.Text = Bttn3.Text = "";
                         Bttn4.Text = Bttn5.Text = Bttn6.Text = "";
                         Bttn7.Text = Bttn8.Text = Bttn9.Text = "";
+                        attempt = 0;
                     }
                 }
                 //Diagonal Pattern
@@ -150,7 +178,18 @@ namespace Tic_Tac_Toe_Program
                         Bttn1.Text = Bttn2.Text = Bttn3.Text = "";
                         Bttn4.Text = Bttn5.Text = Bttn6.Text = "";
                         Bttn7.Text = Bttn8.Text = Bttn9.Text = "";
+                        attempt = 0;
                     }
+                }
+                //Draw
+                attempt = attempt + 1;
+                if (attempt == 9)
+                {
+                    MessageBox.Show("The Game ended in a Draw! Congrats, there was no winner.");
+                    Bttn1.Text = Bttn2.Text = Bttn3.Text = "";
+                    Bttn4.Text = Bttn5.Text = Bttn6.Text = "";
+                    Bttn7.Text = Bttn8.Text = Bttn9.Text = "";
+                    attempt = 0;
                 }
             }
         }
