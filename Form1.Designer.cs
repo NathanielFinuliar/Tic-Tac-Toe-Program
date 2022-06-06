@@ -165,7 +165,7 @@
             this.Ext.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.Ext.Location = new System.Drawing.Point(531, 223);
             this.Ext.Name = "Ext";
-            this.Ext.Size = new System.Drawing.Size(83, 63);
+            this.Ext.Size = new System.Drawing.Size(83, 52);
             this.Ext.TabIndex = 2;
             this.Ext.Text = "Exit";
             this.Ext.UseVisualStyleBackColor = false;
@@ -238,7 +238,7 @@
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Fm1";
-            this.Text = "Tic Tac Toe";
+            this.Text = "Tic-Tac-Toe";
             this.ResumeLayout(false);
             this.PerformLayout();
 
