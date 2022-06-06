@@ -551,5 +551,10 @@ namespace Tic_Tac_Toe_Program
         {
             this.Close();
         }
+
+        private void Sypns_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Tic-tac-toe is game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.");
+        }
     }
 }
