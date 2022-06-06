@@ -45,7 +45,7 @@
             // 
             // Bttn1
             // 
-            this.Bttn1.BackColor = System.Drawing.Color.White;
+            this.Bttn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Bttn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Bttn1.Font = new System.Drawing.Font("Games", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bttn1.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -192,6 +192,7 @@
             this.Controls.Add(this.Bttn4);
             this.Controls.Add(this.Bttn1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Fm1";
             this.Text = "Tic Tac Toe";
             this.ResumeLayout(false);
