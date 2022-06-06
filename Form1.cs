@@ -44,6 +44,10 @@ namespace Tic_Tac_Toe_Program
                         Bttn7.Text = Bttn8.Text = Bttn9.Text = "";
                         attempt = 0;
 
+                        Bttn1.BackColor = Color.PowderBlue;
+                        Bttn4.BackColor = Color.PowderBlue;
+                        Bttn7.BackColor = Color.PowderBlue;
+
                     }
                 }
                 //Column Pattern
@@ -549,7 +553,21 @@ namespace Tic_Tac_Toe_Program
 
         private void Ext_Click(object sender, EventArgs e)
         {
-            this.Close();
+            try
+            {
+                DialogResult iExit;
+                iExit = MessageBox.Show("Confirm if you want to exit", "TicTacToe", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (iExit == DialogResult.OK)
+                {
+                    this.Close();
+                }    
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void Sypns_Click(object sender, EventArgs e)
