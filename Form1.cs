@@ -43,11 +43,6 @@ namespace Tic_Tac_Toe_Program
                         Bttn4.Text = Bttn5.Text = Bttn6.Text = "";
                         Bttn7.Text = Bttn8.Text = Bttn9.Text = "";
                         attempt = 0;
-
-                        Bttn1.BackColor = Color.PowderBlue;
-                        Bttn4.BackColor = Color.PowderBlue;
-                        Bttn7.BackColor = Color.PowderBlue;
-
                     }
                 }
                 //Column Pattern
@@ -572,7 +567,10 @@ namespace Tic_Tac_Toe_Program
 
         private void Sypns_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Tic-tac-toe is game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.", "What is TicTacToe?", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Tic-tac-toe is game for two players who take turns marking the spaces in a three-by-three grid with X or O. " +
+                "The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.", 
+                "What is TicTacToe?", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
         }
     }
 }

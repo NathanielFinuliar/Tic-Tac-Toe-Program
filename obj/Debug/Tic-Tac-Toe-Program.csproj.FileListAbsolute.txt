@@ -9,3 +9,5 @@ C:\Users\nathan\source\repos\sample\Tic-Tac-Toe-Program\obj\Debug\Tic-Tac-Toe-Pr
 C:\Users\nathan\source\repos\sample\Tic-Tac-Toe-Program\obj\Debug\Tic-Tac-Toe-Program.exe
 C:\Users\nathan\source\repos\sample\Tic-Tac-Toe-Program\obj\Debug\Tic-Tac-Toe-Program.pdb
 C:\Users\nathan\source\repos\sample\Tic-Tac-Toe-Program\obj\Debug\Tic_Tac_Toe_Program.Fm1.resources
+C:\Users\nathan\source\repos\sample\Tic-Tac-Toe-Program\obj\Debug\Interop.WMPLib.dll
+C:\Users\nathan\source\repos\sample\Tic-Tac-Toe-Program\obj\Debug\Tic-Tac-Toe-Program.csproj.ResolveComReference.cache

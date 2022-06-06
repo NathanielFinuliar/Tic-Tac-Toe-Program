@@ -163,7 +163,7 @@
             this.Ext.Font = new System.Drawing.Font("Gobold Blocky", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ext.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Ext.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.Ext.Location = new System.Drawing.Point(526, 223);
+            this.Ext.Location = new System.Drawing.Point(531, 223);
             this.Ext.Name = "Ext";
             this.Ext.Size = new System.Drawing.Size(83, 63);
             this.Ext.TabIndex = 2;
